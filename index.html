@@ -10,8 +10,28 @@
 		<meta charset="utf-8" />
 		<meta name="viewport" content="width=device-width, initial-scale=1" />
 		<link rel="stylesheet" href="assets/css/main.css" />
+
+		<style>
+
+			#info{
+				position: fixed;
+				width: 100%;
+				height: 75px;
+				background: black;
+				color: white;
+				text-align: center;
+				z-index: 999;
+				line-height: 75px;
+				top:0;
+			}
+
+		</style>
+
 	</head>
 	<body>
+
+
+		<div id="info">La vente des places pour la soirée est terminée.</div>
 
 		<!-- Wrapper -->
 			<div id="wrapper" class="divided">
@@ -23,7 +43,8 @@
 							<p class="major">La soirée des diplômés est l'occasion de conclure le cursus des étudiants de l'Enssat en proposant un moment convivial aux Enssatiens et à leurs proches.</p>
 							<p>Suite à l'annulation du traditionnel Gala, l'organisation de cette soirée est assurée par <a href="http://aee.enssat.fr">l'Association des Élèves de l'Enssat</a>.</p>
 
-							<button type="submit" style="font-family: Source Sans Pro" class="button big wide smooth-scroll-middle" border="0" name="submit" alt="PayPal, le réflexe sécurité pour payer en ligne"><i class="fa fa-paypal" aria-hidden="true"></i><strike>Achetez vos places</strike></button>
+							<button type="submit" disabled="disabled"style="font-family: Source Sans Pro" class="button big wide smooth-scroll-middle" border="0" name="submit" alt="PayPal, le réflexe sécurité pour payer en ligne"><strike>Achetez vos places</strike>
+							</button>
 
 						</div>
 						<div class="image">
